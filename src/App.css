@@ -1,0 +1,277 @@
+.title {
+  color: red;
+  font-family: Anton, Lobster, sans-serif;
+}
+
+.container {
+  background-color: lightyellow;
+  padding: 10px;
+  border: 5px solid brown;
+  margin-top: 50px;
+}
+
+.image {
+  background-color: white;
+  padding: 20px;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar-heading {
+  text-align: center;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.well {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.caption {
+  font-style: italic;
+}
+
+.text-justify {
+  text-align: justify;
+}
+.highlighted-image {
+  border: 2px solid yellow; /* Example border color */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Example shadow effect */
+  display: block;
+  margin: 0 auto;
+}
+
+.awards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.awards-list li {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.awards-list img {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 10px;
+}
+.center-align {
+  text-align: center;
+}
+
+.navbar-heading {
+  text-align: center;
+  color: #ff6600; /* Change the color to your preferred highlight color */
+  font-size: 2em; /* Adjust font size as needed */
+  font-weight: bold; /* Add bold font weight */
+  /* Add animation effect */
+  animation-name: highlight;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  background-image: linear-gradient(to right, #ff6600, #ff9900); /* Gradient background */
+  -webkit-background-clip: text; /* Apply text as background clip */
+  background-clip: text;
+}
+
+@keyframes highlight {
+  0% {
+    color: #ff9900; /* Start color */
+  }
+  50% {
+    color: #ffcc00; /* Middle color */
+  }
+  100% {
+    color: #ff6600; /* End color */
+  }
+}
+
+/* Add these styles to your CSS file */
+
+.awards-container {
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.award-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FF6600; /* Highlight color */
+}
+
+.award-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Add space between awards */
+}
+
+.award-image {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px; /* Add rounded corners to images */
+}
+
+.award-description {
+  text-align: center; /* Center align the description */
+}
+.biography-section {
+  text-align: center;
+}
+
+.biography-content {
+  padding: 20px;
+}
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+}
+/* CSS for Quotes */
+/* CSS for Quotes */
+.quote {
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #007bff; /* Change the border color as per your preference */
+}
+
+.quote p {
+  margin-bottom: 0;
+}
+/* CSS for Footer */
+.footer {
+  background-color: #87ceeb; /* Sky blue background color */
+  padding: 20px 0; /* Add padding for better spacing */
+}
+
+.footer .container {
+  background-color: transparent; /* Remove white background color */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  color: #000; /* Set text color to black */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Gap between grid items */
+  list-style-type: none; /* Remove default list styling */
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  max-height: 200px;
+}
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.song-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.song-container {
+  width: 30%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.song-details {
+  margin-bottom: 10px;
+}
+
+.song-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.listen-button button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.listen-button button:hover {
+  background-color: #ff7f00;
+}
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.awards-container {
+  padding-top: 20px;
+}
+
+.awards-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  list-style: none;
+}
+
+.award-name {
+  font-weight: bold;
+}
+
+.award-item {
+  margin-top: 10px;
+}
+
+.award-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.award-description {
+  margin-top: 10px;
+}
+
